@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>RICE LEAF DISEASE DETECTION</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .card-style {
+            background-color: #dcdcdc;
+
+        }
+
+        .content {
+            padding: 15px;
+            color: white;
+            background-color: rgb(153, 156, 150);
+            /* font-size: 1rem; */
+        }
+
+        @media (max-width: 430px) and (min-width: 200px) {
+
+
+            .contents {
+                font-size: 0.6rem;
+                color: chartreuse;
+            }
+
+            .content-h1 {
+
+                font-size: 1rem;
+            }
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="width:100%; height:500px;">
+        <img src="/static/images/brownspot.jpg" class="w3-border w3-padding" alt="Rice Leaf Disease Image"
+            style="width:100%; height:500px;">
+    </div>    
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                    <!-- <img src="{{pred_output}}" alt="User Image" class="img-thumbnail"> -->
+
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+
+                <h2>Disease Name: BrownSpot </span></h2>
+                <h3 style="line-height: 100%;">BrownSpot rice leaf disease is characterized by the attack of leaf sucking and chewing pests, causing significant damage to rice crops. <br>
+                <hr class="w-100 mx-auto ">
+            </div>
+        </div>
+
+
+        <h1> Solution for Disease: </h1>
+        <p><strong>Here are some solutions to manage brown spot disease in rice:</i></strong></p>
+        <p></p>
+        <p>1. Use resistant or tolerant varieties: The most effective way to control brown spot disease is to use resistant or tolerant rice varieties. Consult with your local agricultural extension service for recommendations on suitable varieties for your region.</p>
+        <p>2. Crop rotation: Practice crop rotation with non-host crops to break the disease cycle and reduce the inoculum level in the soil.</p>
+        <p>3. Proper seed treatment: Treat seeds with fungicides before sowing to protect seedlings from infection during the early stages of growth.</p>
+        <p>4. Maintain proper field sanitation: Remove and destroy infected plant debris after harvest to prevent the buildup of inoculum in the soil.</p>
+        <p>5. Use appropriate fertilization: Balanced fertilization can help improve plant health and resistance to diseases. Avoid excessive use of nitrogen fertilizers, as it can promote susceptibility to brown spot.</p>
+        <p>6. Control weeds: Weeds can serve as alternate hosts for the fungus, so maintaining a weed-free field is essential for disease management.        </p>
+        <p>7. Optimize irrigation: Proper irrigation management can help reduce the spread of the disease. Avoid overwatering, as it can create a favorable environment for the fungus to grow.</p>
+        <p>8. Use fungicides: If the disease pressure is high, fungicides can be used as a last resort. Consult with your local agricultural extension service for recommendations on suitable fungicides and application timings.</p>
+        <p>9. Promote natural enemies: Encourage the presence of natural enemies, such as predators and parasites, to help control the fungus population. </p>
+        <p>10. Regular monitoring: Regularly monitor your rice fields for signs of brown spot disease and take prompt action if symptoms are observed.</p>
+    </div>
+
+
+
+    <section>
+
+        <div class="container">
+            <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                class="text-center my-3 content-h1">
+                Recommended Products</h1>
+        </div>
+
+        <div class="container">
+
+
+            <div class="card-columns">
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="" alt=""> <!-- inside src:  image path= static/images/image.png --> 
+                        <h3 class="card-text"> </h3> <!--Dose: 60-80 gm/Acre --> 
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="" alt="">  
+                        <h3 class="card-text"></h3>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px" class="img-fluid" src="" alt="">
+                        <h3 class="card-text"></h3>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="" alt="">
+                        <h3 class="card-text"></h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="container-fluid contents"> -->
+            <h5 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                class="text-center my-3 contents">
+                Delivery Contact:
+                dua51273@gmail.com</h5>
+            <!-- </div> -->
+        </div>
+
+    </section>
+
+</body>
+
+</html>
